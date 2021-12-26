@@ -282,7 +282,8 @@ nav .navbar-brand {
 
 footer {
   background-color: black;
-  padding: 5rem 0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   color: white; }
   footer .row {
     border-bottom: 1px solid grey; }
@@ -326,4 +327,6 @@ footer {
     left: 0;
     bottom: 0;
     transform: translateY(0) rotate(0deg);
-    top: unset; } }
+    top: unset; }
+  footer {
+    padding-bottom: calc(5rem + 56px); } }

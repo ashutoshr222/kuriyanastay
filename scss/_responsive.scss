@@ -36,6 +36,11 @@
     top: unset;
   }
 
+  // footer-section
+  footer{
+    padding-bottom: calc(5rem + 56px);
+  }
+
 }
 
 @media (max-width: 575px) {

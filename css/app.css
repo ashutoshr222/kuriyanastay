@@ -157,7 +157,7 @@ nav .navbar-brand {
   0% {
     padding: 1px 0 16px 0; }
   50% {
-    padding: 1px 4.25rem 16px 4.25rem; }
+    padding: 1px 3.25rem 16px 3.25rem; }
   100% {
     padding: 1px 0 16px 0; } }
 
@@ -318,4 +318,12 @@ footer {
   header {
     position: fixed; }
   footer ul {
-    justify-content: center; } }
+    justify-content: center; }
+  .whatsapp-fixed-icon {
+    bottom: 56px; }
+  .calling-icon {
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+    transform: translateY(0) rotate(0deg);
+    top: unset; } }

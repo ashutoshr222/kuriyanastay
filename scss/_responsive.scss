@@ -24,6 +24,18 @@
   footer ul{
     justify-content: center;
 }
+  // fixed-icons
+  .whatsapp-fixed-icon{
+     bottom: 56px;
+  }
+  .calling-icon{
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+    transform: translateY(0) rotate(0deg);
+    top: unset;
+  }
+
 }
 
 @media (max-width: 575px) {

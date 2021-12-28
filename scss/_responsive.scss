@@ -40,6 +40,10 @@
   footer{
     padding-bottom: calc(5rem + 56px);
   }
+  .footer-links{
+    flex-direction: column;
+    align-items: center;
+  }
 
 }
 

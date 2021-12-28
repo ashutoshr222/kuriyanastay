@@ -164,6 +164,17 @@ nav .navbar-brand {
 .about-section {
   padding: 5rem 0;
   color: #686868; }
+  .about-section span {
+    height: 50vh;
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    min-height: 300px;
+    max-height: 500px; }
+    .about-section span img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover; }
   .about-section p:last-of-type {
     margin-bottom: 5rem; }
   .about-section h2, .about-section h3 {
@@ -329,4 +340,7 @@ footer {
     transform: translateY(0) rotate(0deg);
     top: unset; }
   footer {
-    padding-bottom: calc(5rem + 56px); } }
+    padding-bottom: calc(5rem + 56px); }
+  .footer-links {
+    flex-direction: column;
+    align-items: center; } }

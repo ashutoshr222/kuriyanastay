@@ -40,6 +40,21 @@
   padding: 5rem 0;
   color: $text-color;
 
+  span{
+    height: 50vh;
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    min-height: 300px;
+    max-height: 500px;
+    
+      img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+  }
+
     p:last-of-type{
       margin-bottom: 5rem;
     }

@@ -2,6 +2,10 @@
 }
 
 @media (min-width: 768px) {
+  // stay-page
+  .stay-list{
+    padding-left: 2rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -17,10 +21,26 @@
 }
 
 @media (max-width: 767px) {
+  // global
+  html{
+    font-size: 14px;
+  }
   // header-section
   header {
     position: fixed;
   }
+
+  // main-section
+  main{
+    margin-top: 96px;
+  }
+
+  .location-section h2{
+    margin-bottom: 2rem;
+  }
+
+
+  // footer
   footer ul{
     justify-content: center;
 }

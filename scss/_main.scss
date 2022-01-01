@@ -1,5 +1,7 @@
 // hero-banner-section
-
+main{
+  min-height: calc(100vh - 500px);
+}
 .hero-banner {
   height: calc(100vh - 98px);
   min-height: 600px;

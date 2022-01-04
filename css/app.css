@@ -41,6 +41,10 @@ body {
   font-size: 3.125rem;
   color: #51ff0d; }
 
+.instagram-icon {
+  bottom: calc(1.25rem + 3.2rem) !important;
+  color: #e1306c !important; }
+
 .calling-icon {
   top: 50%;
   left: -22px;
@@ -363,6 +367,8 @@ footer {
     justify-content: center; }
   .whatsapp-fixed-icon {
     bottom: 56px; }
+  .instagram-icon {
+    bottom: calc(56px + 3.2rem) !important; }
   .calling-icon {
     width: 100vw;
     left: 0;

@@ -54,6 +54,10 @@ body {
 .instagram-icon{
   bottom: calc(1.25rem + 3.2rem) !important;
   color: rgb(225, 48, 108)  !important;
+
+  &:hover{
+    color: blue !important;
+  }
 }
 .calling-icon {
   top: 50%;
@@ -150,4 +154,13 @@ body {
       color: red;
   }
 
+}
+
+// mail-link
+.mail-link{
+  font-size: 1.25rem !important;
+
+  &:hover{
+    color: darkgreen;
+  }
 }

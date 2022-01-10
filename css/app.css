@@ -44,6 +44,8 @@ body {
 .instagram-icon {
   bottom: calc(1.25rem + 3.2rem) !important;
   color: #e1306c !important; }
+  .instagram-icon:hover {
+    color: blue !important; }
 
 .calling-icon {
   top: 50%;
@@ -120,6 +122,11 @@ body {
   .carousel-arrow:hover {
     border: 1px solid #1b4962;
     color: red; }
+
+.mail-link {
+  font-size: 1.25rem !important; }
+  .mail-link:hover {
+    color: darkgreen; }
 
 header {
   position: sticky;

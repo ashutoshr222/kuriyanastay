@@ -128,6 +128,9 @@ body {
   .mail-link:hover {
     color: darkgreen; }
 
+.border-top-dark {
+  border-top: 4px solid black; }
+
 header {
   position: sticky;
   z-index: 1030;
@@ -369,7 +372,7 @@ footer {
   header {
     position: fixed; }
   main {
-    margin-top: 96px; }
+    margin-top: 106px; }
   .location-section h2 {
     margin-bottom: 2rem; }
   footer ul {
